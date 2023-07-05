@@ -1,0 +1,6 @@
+1. Create ToDoItem component: a small box with text and order number;
+2. This component should take in props: index (number), text (string), isDone (boolean);
+3. Use props to display list item order number, text and check if its done;
+4. In case it's done, change component style so the text has CSS text-decoration: line-through style;
+5. Create ToDoItemsList layout component which gets ToDoItems as children and displays in a list vertically.
+6. BONUS: ToDoItemsList should accept a prop "gap" which accepts number and allows changing gap between list items.
